@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const mongoose = require('mongoose');
+// const mongoose = require('mongoose'); // I belive this comes with the models - not needed here
 const passport = require('passport');
 
 
