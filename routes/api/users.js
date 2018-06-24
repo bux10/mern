@@ -141,7 +141,7 @@ router.get('/current', passport.authenticate('jwt', {
   res.json({
     id: req.user.id,
     name: req.user.name,
-    emai: req.user.email
+    email: req.user.email
   });
 })
 
