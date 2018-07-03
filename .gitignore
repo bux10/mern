@@ -1,5 +1,8 @@
 /node_modules
 package-lock.json
 
+#config folder
+/config
+
 #client theme
 /client/theme
